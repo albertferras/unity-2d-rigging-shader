@@ -148,9 +148,25 @@
         },
         {
             "m_Id": "acc3b6c3fd774c59997363ad7595154e"
+        },
+        {
+            "m_Id": "9d4fac829e1e4f08a53b94aa007c9c41"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "3cd01a2fcb6e4e9ca6f72fb4594863cb"
+        },
+        {
+            "m_Id": "1453924156d642b58e758a3c8caf6ec9"
+        },
+        {
+            "m_Id": "f9794199306944d79af0ad6509631ef8"
+        },
+        {
+            "m_Id": "eb89fe7c2adf4d9592ec34b239f055c3"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -841,8 +857,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 2001.0,
-            "y": 729.0
+            "x": 1393.9998779296875,
+            "y": 1032.9998779296875
         },
         "m_Blocks": [
             {
@@ -858,8 +874,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 1985.0,
-            "y": 1222.0
+            "x": 1377.9998779296875,
+            "y": 1525.9998779296875
         },
         "m_Blocks": [
             {
@@ -1248,10 +1264,10 @@
     "m_Guid": {
         "m_GuidSerialized": "62475f43-051b-4033-b6a2-3b189d089991"
     },
-    "m_Name": "Color",
+    "m_Name": "OutlineColor",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Color",
-    "m_DefaultReferenceName": "_Color",
+    "m_RefNameGeneratedByDisplayName": "OutlineColor",
+    "m_DefaultReferenceName": "_OutlineColor",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1282,10 +1298,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 592.0,
-            "y": 1780.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": -14.999985694885254,
+            "y": 2084.0,
+            "width": 208.00003051757813,
+            "height": 301.999755859375
         }
     },
     "m_Slots": [
@@ -1309,6 +1325,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1453924156d642b58e758a3c8caf6ec9",
+    "m_Title": "Explanation",
+    "m_Content": "OutlineSubgraph moves the sprite to one direction (left,right,...) and produces the difference (silhouette).\nWe do this for UP,DOWN,RIGHT,LEFT.\n\nWe repeat this for the 4 diagonals for an even smoother outline.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1697.0,
+        "y": 1352.0,
+        "width": 200.0,
+        "height": 165.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -1591,10 +1627,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1622.0,
-            "y": 1077.9998779296875,
-            "width": 208.0,
-            "height": 302.0001220703125
+            "x": 1014.9999389648438,
+            "y": 1382.0,
+            "width": 207.99993896484376,
+            "height": 301.9998779296875
         }
     },
     "m_Slots": [
@@ -1677,6 +1713,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "3cd01a2fcb6e4e9ca6f72fb4594863cb",
+    "m_Title": "Explanation",
+    "m_Content": "This will clean all data in the transparent pixels. If we don't do this, the outline will look dirty.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 327.0,
+        "y": 813.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "3f3ef02a27464dfeac6e8deb95328560",
     "m_Id": 1,
@@ -1704,17 +1760,17 @@
     "m_Type": "UnityEditor.ShaderGraph.ClampNode",
     "m_ObjectId": "3f784a1f68c842718dc5bea35c2d295a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "9d4fac829e1e4f08a53b94aa007c9c41"
     },
     "m_Name": "Clamp",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1585.0,
-            "y": 310.0,
-            "width": 208.0,
-            "height": 326.0
+            "x": 583.9999389648438,
+            "y": 974.0,
+            "width": 208.0001220703125,
+            "height": 326.0001220703125
         }
     },
     "m_Slots": [
@@ -3090,10 +3146,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 624.0,
-            "y": 828.9999389648438,
-            "width": 208.0,
-            "height": 434.99993896484377
+            "x": -236.00003051757813,
+            "y": 974.0,
+            "width": 208.0000457763672,
+            "height": 435.0
         }
     },
     "m_Slots": [
@@ -3194,10 +3250,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 299.0,
-            "y": 1756.0,
-            "width": 207.99996948242188,
-            "height": 326.0
+            "x": -307.9999694824219,
+            "y": 2060.0,
+            "width": 208.00001525878907,
+            "height": 325.999755859375
         }
     },
     "m_Slots": [
@@ -3290,16 +3346,16 @@
     "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
     "m_ObjectId": "9ab78d09180f459092983a046cda83c8",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "9d4fac829e1e4f08a53b94aa007c9c41"
     },
     "m_Name": "One Minus",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 975.9999389648438,
-            "y": 690.0,
-            "width": 208.00006103515626,
+            "x": 62.000003814697269,
+            "y": 1065.0,
+            "width": 208.0,
             "height": 278.0
         }
     },
@@ -3407,6 +3463,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "9d4fac829e1e4f08a53b94aa007c9c41",
+    "m_Title": "Texture Cleanup",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
     "m_ObjectId": "9e036045646b45b9a9869ce47ae5063c",
     "m_Id": 1,
@@ -3461,15 +3528,15 @@
     "m_Type": "UnityEditor.ShaderGraph.SubtractNode",
     "m_ObjectId": "9fe43a84453f4ec8a335cda032a7e1fc",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "9d4fac829e1e4f08a53b94aa007c9c41"
     },
     "m_Name": "Subtract",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1222.0,
-            "y": 310.0,
+            "x": 308.0,
+            "y": 974.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -3580,10 +3647,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 433.0,
-            "y": 900.0,
+            "x": -416.0000305175781,
+            "y": 999.0,
             "width": 129.0,
-            "height": 33.99993896484375
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -4231,9 +4298,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 993.0,
-            "y": 1447.0,
-            "width": 105.0,
+            "x": -175.00009155273438,
+            "y": 1759.0,
+            "width": 105.00005340576172,
             "height": 34.0
         }
     },
@@ -4526,7 +4593,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "de7e321e78334cf7af0ef5f0a16ad27e",
     "m_Id": 0,
-    "m_DisplayName": "Color",
+    "m_DisplayName": "OutlineColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4790,6 +4857,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "eb89fe7c2adf4d9592ec34b239f055c3",
+    "m_Title": "Explanation",
+    "m_Content": "This is to make the OutlineSize property easier to configure, based on pixels instead of Units",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2940.0,
+        "y": 1740.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "ed1908b464d14f1180dbb96430dbf6c7",
     "m_Group": {
@@ -4800,10 +4887,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1118.0,
-            "y": 1286.0,
-            "width": 208.0001220703125,
-            "height": 302.0
+            "x": -15.000027656555176,
+            "y": 1701.0001220703125,
+            "width": 208.00001525878907,
+            "height": 301.9998779296875
         }
     },
     "m_Slots": [
@@ -5004,6 +5091,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "f9794199306944d79af0ad6509631ef8",
+    "m_Title": "Explanation",
+    "m_Content": "Distance moved to Left/right/up/down is 1*OutlineSize.\nIf we move diagonally, we would be moving more distance. To prevent this, we divide by squareroot of 2 (pythagoras)",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2845.0,
+        "y": 2473.0,
+        "width": 200.0,
+        "height": 141.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
