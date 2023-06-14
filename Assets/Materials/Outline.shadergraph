@@ -1338,13 +1338,13 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1697.0,
-        "y": 1352.0,
+        "x": -2596.0,
+        "y": 1569.0,
         "width": 200.0,
-        "height": 165.0
+        "height": 167.0
     },
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8b875d90bad74583a9c13aad96aabcce"
     }
 }
 
@@ -1721,8 +1721,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": 327.0,
-        "y": 813.0,
+        "x": 316.0,
+        "y": 1304.0,
         "width": 200.0,
         "height": 100.0
     },
