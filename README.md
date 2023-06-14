@@ -32,6 +32,7 @@ Globally:
 - CullingMask: Only 'RenderLayerForCameraB'
 - Output Texture: 'CameraBRenderTexture'
 - Place the camera so that it can see your rigged model (RED FLOOR one in our case)
+- **IMPORTANT** You cannot enable PostProcessing in this Camera. Doing so will break the `Alpha` (transparency) of your RenderTexture
 
 **GlobalLight for Camera B:**
 - TargetSortingLayers: SpriteLayerB
@@ -63,5 +64,4 @@ Zoom Right side:
 
 OutlineSubgraph:
 ![Captura de pantalla 2023-06-14 205357](https://github.com/albertferras/unity-2d-rigging-shader/assets/7689174/ac0dc6de-ea2a-4cd2-8af9-dc77802051a3)
-
 
