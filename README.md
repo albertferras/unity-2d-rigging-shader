@@ -1,9 +1,9 @@
 # unity-2d-rigging-shader
 
 This is an example of one way to add an outline shader to a 2D animated rigged model.
-Created using Unity vresion 2021.3.27f1 on 14th June 2023.
+Created using **Unity version 2021.3.27f1** on 14th June 2023.
 
-**Demo:**
+**Demo video:**
 https://github.com/albertferras/unity-2d-rigging-shader/assets/7689174/0f47da84-2861-42c5-b097-260ce68657f1
 
 **Setup:**
